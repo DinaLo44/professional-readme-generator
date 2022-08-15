@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
-const utils = require('utils');
-const generateMarkdown = require("./utils/generateMarkdown");
+
+const generateMarkdown = require("./utils/generateMarkdown.js");
 const inquirer = require("inquirer");
 const fs = require("fs");
 
@@ -18,17 +18,12 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Table of Contents',
-        name: 'Table of Contents',
-    },
-    {
-        type: 'input',
         message: 'What does the user need to install in order to run your application?',
         name: 'Installation',
     },
         {
         type: 'input',
-        message: 'What is the usage of your application?',
+        message: 'What does the usage of this application consist in?',
         name: 'Usage',
     },
     {
@@ -36,7 +31,7 @@ const questions = [
         message: 'What license would you like to use?',
         name: 'License',
         choices: [
-            "APAHE 2.0",
+            "APACHE 2.0",
             "BSD 3",
             "MIT",
             "None",
@@ -44,12 +39,12 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Are there other develpers who contributed in your application? If so, please state their name(s).',
+        message: 'Are there other developers who contributed in your application? If so, please state their name(s).',
         name: "Contributing",
     },
     {
         type: 'input',
-        message: 'How can a user test your application?',
+        message: 'What are the commands needed to test your application?',
         name:'Tests',
     },
     {
@@ -64,19 +59,17 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    
-}
-
-
 // TODO: Create a function to initialize app
 function init() {
-    
-    // inquirer.prompt(questions)
-    // .then(function(data) {
-    //     writeToFile('README.md', generateMarkdown(data));
-    //     console.log(data)
+        inquirer.prompt(questions)
+    .then(function(data) {
+        console.log(data)
+        let readMe = generateMarkdown(data)
+        console.log(readMe)
+        fs.writeFile('README.md', readMe, function () {
+            console.log("README file successfully processed")
+        })
+    })
 };
 
 
