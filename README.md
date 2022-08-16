@@ -14,7 +14,7 @@
   - [Tests](#tests)
   - [Questions](#questions)
   # Installation
-  In order to run this application the user needs to install the “inquirer” module . In order to do that it is required to type in the terminal the commands “npm init -y” to install the “node_modules” folder with all node packages including the package.json andpackage-lock.json. After that, the user wll eed ni to type “npm install inquirer”. Additionally, the user will have to include the File System module by using the require() method in its index.js file.
+  In order to run this application the user needs to install the “inquirer” module . In order to do that it is required to type in the terminal the commands “npm init -y” to install the “node_modules” folder with all node packages including the package.json and package-lock.json. After that, the user will need to type “npm install inquirer”. Additionally, the user will have to include the File System module by using the require() method in its index.js file.
   # Usage
   The usage of this application consists in helping developers to accelerate the creation process of a professional README file that satisfies all industry standards so that they can invest more time in other time-consuming parts of their projects. 
   # License 
@@ -25,9 +25,9 @@
   # Tests
   The following commands are needed in order to test this application: node index.js
   # Screenshots
-  - assets/images/screenshot1.PNG
-  - assets/images/screenshot2.PNG
-  - assets/images/screenshot3.PNG
+  - .\assets\images\screenshot1.PNG
+  - .\assets\images\screenshot2.PNG
+  - .\assets\images\screenshot3.PNG
   # Video 
   Here is a demo video of the application: https://drive.google.com/file/d/1y8Ara-p5CHtP5aGDXzdAvOmfYaC_Ve6S/view
   # Questions
