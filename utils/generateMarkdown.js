@@ -43,7 +43,7 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Questions](#questions)
   # Installation
-  In order to run this application you will need the following dependencies to be installed: ${data.Installation}
+  In order to run this application the user needs to install ${data.Installation}
   # Usage
   The usage of this application consists in ${data.Usage}
   # License 
@@ -53,10 +53,16 @@ function generateMarkdown(data) {
   Additional contributors involved in this application:  ${data.Contributing}
   # Tests
   The following commands are needed in order to test this application: ${data.Tests}
+  # Screenshots
+  - ${data.Screenshot1}
+  - ${data.Screenshot2}
+  - ${data.Screenshot3}
+  # Video 
+  Here is a demo video of the application: ${data.Video}
   # Questions
   If you desire to address any inquiries, suggestions or repository related matters, feel free to contact me through my GitHub account username: ${data.Username} or at
   ${data.Email}
-`;
+  `;
 }
 
 module.exports = generateMarkdown;

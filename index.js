@@ -49,6 +49,26 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'Include any screenshots of your application that you would like to share: (1/3)',
+        name: 'Screenshot1'
+    },
+    {
+        type: 'input',
+        message: 'Include any screenshots of your application that you would like to share: (2/3)',
+        name: 'Screenshot2'
+    },
+    {
+        type: 'input',
+        message: 'Include any screenshots of your application that you would like to share: (3/3)',
+        name: 'Screenshot3',
+    },
+    {
+        type: 'input',
+        message: 'Would you like to include the link of a video to demonstrate the functionality of your application? If you do so, state it here:',
+        name: 'Video'
+    },
+    {
+        type: 'input',
         message: 'What is your GitHub username?',
         name: 'Username',
     },
@@ -67,7 +87,7 @@ function init() {
         let readMe = generateMarkdown(data)
         console.log(readMe)
         fs.writeFile('README.md', readMe, function () {
-            console.log("README file successfully processed")
+            console.log("README file successfully created")
         })
     })
 };

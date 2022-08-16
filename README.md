@@ -5,7 +5,7 @@
   http://github.com/DinaLo44/professional-readme-generator
 
   # Description
-  This application facilitates the creation of a README file through node.js 
+  This application facilitates the creation of a README file through node.js. Once the user opens the integrated terminal and type the correct commands, the application will display multiple questions to populate the content of the README file. Once the user has answered all questions, the application displays a message indicating that the README file was successfully created. It is an easy process that will save a lot of time to busy developers.
   # Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -14,9 +14,9 @@
   - [Tests](#tests)
   - [Questions](#questions)
   # Installation
-  In order to run this application you will need the following dependencies to be installed: the modules inquirer and fs and the repository folder
+  In order to run this application the user needs to install the “inquirer” module . In order to do that it is required to type in the terminal the commands “npm init -y” to install the “node_modules” folder with all node packages including the package.json andpackage-lock.json. After that, the user wll eed ni to type “npm install inquirer”. Additionally, the user will have to include the File System module by using the require() method in its index.js file.
   # Usage
-  The usage of this application consists in helping developers to create a quality README file faster so that they can invest more time in other time-consuming parts of their projects.
+  The usage of this application consists in helping developers to accelerate the creation process of a professional README file that satisfies all industry standards so that they can invest more time in other time-consuming parts of their projects. 
   # License 
   The license used for this application is APACHE 2.0
   https://opensource.org/licenses/Apache-2.0
@@ -24,6 +24,13 @@
   Additional contributors involved in this application:  NA
   # Tests
   The following commands are needed in order to test this application: node index.js
+  # Screenshots
+  - assets/images/screenshot1.PNG
+  - assets/images/screenshot2.PNG
+  - assets/images/screenshot3.PNG
+  # Video 
+  Here is a demo video of the application: https://drive.google.com/file/d/1y8Ara-p5CHtP5aGDXzdAvOmfYaC_Ve6S/view
   # Questions
   If you desire to address any inquiries, suggestions or repository related matters, feel free to contact me through my GitHub account username: DinaLo44 or at
   dinalo.brady@gmail.com
+  
