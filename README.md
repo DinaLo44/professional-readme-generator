@@ -12,9 +12,11 @@
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
+  - [Screenshots](#screenshots)
+  - [Video](#video)
   - [Questions](#questions)
   # Installation
-  In order to run this application the user needs to install the “inquirer” module . In order to do that it is required to type in the terminal the commands “npm init -y” to install the “node_modules” folder with all node packages including the package.json and package-lock.json. After that, the user will need to type “npm install inquirer”. Additionally, the user will have to include the File System module by using the require() method in its index.js file.
+  In order to run this application the user needs to install  the “inquirer” module . However, in order to do that, first, it is required to type in the terminal the commands “npm init -y” to install the “node_modules” folder with all node packages including the package.json and package-lock.json. After that, the user will need to type “npm install inquirer”. Additionally, the user will have to include the File System module by using the require() method in the index.js file.
   # Usage
   The usage of this application consists in helping developers to accelerate the creation process of a professional README file that satisfies all industry standards so that they can invest more time in other time-consuming parts of their projects. 
   # License 
@@ -25,12 +27,11 @@
   # Tests
   The following commands are needed in order to test this application: node index.js
   # Screenshots
-  - .\assets\images\screenshot1.PNG
-  - .\assets\images\screenshot2.PNG
-  - .\assets\images\screenshot3.PNG
+  ![screenshot1](./assets/images/screenshot1.PNG)
+  ![screenshot2](./assets/images/screenshot2.PNG)
+  ![screenshot3](./assets/images/screenshot3.PNG)
   # Video 
-  Here is a demo video of the application: https://drive.google.com/file/d/1y8Ara-p5CHtP5aGDXzdAvOmfYaC_Ve6S/view
+  Here is a demo video of the application: https://drive.google.com/file/d/1DRZ1-6hM8VSmZRedpKXIsYA1AS2auB9U/view
   # Questions
-  If you desire to address any inquiries, suggestions or repository related matters, feel free to contact me through my GitHub account username: DinaLo44 or at
-  dinalo.brady@gmail.com
+  If you desire to address any inquiries, suggestions or repository related matters, feel free to contact me through my GitHub username: DinaLo44 or through my email address: dinalo.brady@gmail.com
   

@@ -41,6 +41,8 @@ function generateMarkdown(data) {
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
+  - [Screenshots](#screenshots)
+  - [Video](#video)
   - [Questions](#questions)
   # Installation
   In order to run this application the user needs to install ${data.Installation}
@@ -54,14 +56,13 @@ function generateMarkdown(data) {
   # Tests
   The following commands are needed in order to test this application: ${data.Tests}
   # Screenshots
-  - ${data.Screenshot1}
-  - ${data.Screenshot2}
-  - ${data.Screenshot3}
+  ![screenshot1](${data.Screenshot1})
+  ![screenshot2](${data.Screenshot2})
+  ![screenshot3](${data.Screenshot3})
   # Video 
   Here is a demo video of the application: ${data.Video}
   # Questions
-  If you desire to address any inquiries, suggestions or repository related matters, feel free to contact me through my GitHub account username: ${data.Username} or at
-  ${data.Email}
+  If you desire to address any inquiries, suggestions or repository related matters, feel free to contact me through my GitHub username: ${data.Username} or through my email address: ${data.Email}
   `;
 }
 
